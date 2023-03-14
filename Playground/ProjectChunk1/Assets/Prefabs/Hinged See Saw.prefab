@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &202437297873051474
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 892350226769988030, guid: 2f92e6507e71845418a152e0c570640c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 37c5e4c80578ec64fa21d822f446b42a, type: 2}
+    - target: {fileID: 892350227425691917, guid: 2f92e6507e71845418a152e0c570640c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 892350227425691917, guid: 2f92e6507e71845418a152e0c570640c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.9999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 892350227425691917, guid: 2f92e6507e71845418a152e0c570640c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.4142137
+      objectReference: {fileID: 0}
+    - target: {fileID: 892350227425691917, guid: 2f92e6507e71845418a152e0c570640c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 892350227425691917, guid: 2f92e6507e71845418a152e0c570640c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 892350227425691917, guid: 2f92e6507e71845418a152e0c570640c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 892350227425691917, guid: 2f92e6507e71845418a152e0c570640c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 892350227425691917, guid: 2f92e6507e71845418a152e0c570640c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 892350227425691917, guid: 2f92e6507e71845418a152e0c570640c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 892350227425691917, guid: 2f92e6507e71845418a152e0c570640c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 892350227425691917, guid: 2f92e6507e71845418a152e0c570640c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 892350227425691922, guid: 2f92e6507e71845418a152e0c570640c,
+        type: 3}
+      propertyPath: m_Name
+      value: Hinged See Saw
+      objectReference: {fileID: 0}
+    - target: {fileID: 892350228116156504, guid: 2f92e6507e71845418a152e0c570640c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 404138e866b65de4e978510443a8d0c2, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 892350228116156511, guid: 2f92e6507e71845418a152e0c570640c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 162175605020604376}
+  m_SourcePrefab: {fileID: 100100000, guid: 2f92e6507e71845418a152e0c570640c, type: 3}
+--- !u!1 &1057625095169208077 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 892350228116156511, guid: 2f92e6507e71845418a152e0c570640c,
+    type: 3}
+  m_PrefabInstance: {fileID: 202437297873051474}
+  m_PrefabAsset: {fileID: 0}
+--- !u!59 &162175605020604376
+HingeJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057625095169208077}
+  m_ConnectedBody: {fileID: 0}
+  m_ConnectedArticulationBody: {fileID: 0}
+  m_Anchor: {x: 0, y: 0.5, z: 0}
+  m_Axis: {x: 0, y: 0, z: 1}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  serializedVersion: 2
+  m_UseSpring: 0
+  m_Spring:
+    spring: 0
+    damper: 0
+    targetPosition: 0
+  m_UseMotor: 0
+  m_Motor:
+    targetVelocity: 0
+    force: 0
+    freeSpin: 0
+  m_UseLimits: 0
+  m_ExtendedLimits: 0
+  m_UseAcceleration: 0
+  m_Limits:
+    min: 0
+    max: 0
+    bounciness: 0
+    bounceMinVelocity: 0.2
+    contactDistance: 0
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
