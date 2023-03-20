@@ -387,7 +387,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.5000001, z: 0.5}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -21.02, y: 1.232365, z: -13.366289}
+  m_ConnectedAnchor: {x: -21.02, y: 12.139543, z: -27.563478}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -550,7 +550,7 @@ Transform:
   - {fileID: 3419090562178036898}
   - {fileID: 3419090561565177475}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3419090562825759989
 GameObject:
